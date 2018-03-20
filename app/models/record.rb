@@ -7,41 +7,46 @@ require 'pry'
 require 'json'
 Mongoid.load!("./config/mongoid.yml", :development)
 
-
   class Records 
     # Seeds the db with external file
     def self.populate
-      require 'csv'
-      raw_data = CSV.read("../input/Literatur_Gesang_Fassung_6.6.16.csv")
-      raw_data.each do |line|
-        Record.create(
-          :year => line[0], 
-          :place => line[1], 
-          :author => line[2], 
-          :title => line[3], 
-          :url_link => line[4], 
-          :publisher => line[5],
-          :comments => line[6],
-        )
-      end
-    end
-
-    def self.export
-      start = 1000
-      ofile = File.open("../export/gesangbuch.xml", "w")
-      collection = Nokogiri::XML::Builder.new(:encoding => 'UTF-8') do |xml| 
-        xml.collection('xmlns' => "http://www.loc.gov/MARC21/slim") do
+      require 'java-properties'
+      langs = %w( de en fr it )
+      res = {}
+      cnt = 1
+      langs.each do |lang|
+        properties = JavaProperties.load("../input/application_#{lang}.properties")
+        properties.each do |k,v|
+          unless res[k]
+            res[k] = {lang => v}
+            res[k].merge!({record_id: cnt})
+            cnt += 1
+          else
+            res[k].merge!({lang => v})
+          end
         end
       end
-      rx = Record.all
-      rx.each do |r|
-        marc = r.to_xml(start+=1)
-        collection.doc.root <<  marc.doc.children.first
+      res.each do |k,v|
+        Record.create(code: k, record_id: v[:record_id], english: v['en'], german: v['de'], french: v['fr'], italian: v['it'] )
       end
-      ofile.write(collection.to_xml)
     end
 
-
+    #Export the set into the output folder
+    def self.export
+      require 'java-properties'
+      langs = {"de": :german, "en": :english, "it": :italian, "fr": :french}
+      langs.each do |k, lang|
+        res = {}
+        ofile = File.open("../output/application_#{k}.properties", "w")
+        rx = Record.all.order_by(record_id: :asc)
+        rx.each do |r|
+          if r[lang]
+            res[r.code] = r[lang]
+          end
+        end
+        JavaProperties.write(res, ofile)
+      end
+    end
   end
 
   class Record

@@ -44,7 +44,10 @@ router.route('/api/records/:record_id')
     Record.findOne({record_id: req.params.record_id}, function(err, record) {
       if (err)
         res.send(err);
-      record.title = req.body.title;
+      record.english = req.body.english;
+      record.french = req.body.french;
+      record.german = req.body.german;
+      record.italian = req.body.italian;
       record.updated_at = new Date().toISOString();
       record.save(function(err) {
         if (err)
