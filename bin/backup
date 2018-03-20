@@ -1,0 +1,10 @@
+#!/bin/bash
+cd ..
+mongodump -d b2 -o db
+tar -cjf b2dump.tar.bz2 db/
+cd db
+rm -rf b2
+cd ..
+mv b2dump.tar.bz2 db
+#To restore
+#mongorestore -d b2 db

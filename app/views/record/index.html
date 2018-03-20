@@ -1,0 +1,14 @@
+<div>
+  <div ui-grid="gridOptions" ui-grid-pagination ui-grid-edit class="recordGrid">
+  </div>
+  <button class="btn btn-success btn-sm" ng-click="addNewItem()">ADD item</button>
+  <div>
+    <div>
+      <table class="table">
+        <tr ng-repeat="para in paragraphs">
+          <td>{{para}}</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>

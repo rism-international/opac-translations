@@ -1,0 +1,16 @@
+development:
+  clients:
+    default:
+      database: backend
+      hosts:
+        - db:27018
+      options:
+        user: 'user'
+        password: 'start123'
+
+#development:
+#  sessions:
+#    default:
+#      database: opaccheck
+#      hosts:
+#       - db:27017

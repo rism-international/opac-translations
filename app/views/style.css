@@ -1,0 +1,22 @@
+.recordGrid {
+  height: 860px;
+
+}
+.ui-grid-row:hover .ui-grid-cell {
+  background-color: beige;
+
+}
+
+.ui-button{
+  -webkit-appearance: none;
+  /*height: 20px;*/
+  background-color: #b5d2f2;
+  font-weight:bold;
+  border: solid #666 1px;
+  
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+
+}
