@@ -27,6 +27,7 @@ app.controller('MainCtrl', ['$scope', '$http', '$route', '$resource', 'Record', 
       //{  name: 'Insert', cellTemplate: '<button class="btn btn-success btn-sm" ng-click="grid.appScope.addNewItem()" ng-show="grid.appScope.isLast(row)">Add row</button>', width: '5%'  },
       //{name:' ',cellTemplate:'<div><button ng-click="deleteRecord()">Delete</button></div>'}
     ],
+    enableColumnResizing: true,
     data: Record.index()};
 
   $scope.isLast = function(row) {
