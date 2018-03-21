@@ -17,7 +17,7 @@ app.controller('MainCtrl', ['$scope', '$http', '$route', '$resource', 'Record', 
     paginationPageSize: 25,
     columnDefs: [
       //{ field: 'year',enableCellEdit: false, width: '10%', maxWidth: 50, minWidth: 50,},
-      { field: 'record_id',  type: 'number', enableCellEdit: false, width: '5%',  sort: { direction: 'desc', priority: 0  } },
+      { field: 'record_id',  type: 'number', enableCellEdit: false, width: '5%',  sort: { direction: 'asc', priority: 0  } },
       { field: 'code', enableCellEdit: false},
       { field: 'english', enableCellEdit: true},
       { field: 'german', enableCellEdit: true},
