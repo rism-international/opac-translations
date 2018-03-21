@@ -1,12 +1,32 @@
 var app = angular.module('records', ['ngAnimate', 'ngTouch', 'ngResource', 'ngRoute', 'ui.grid', 'ui.grid.pagination', 'ui.grid.resizeColumns', 'ui.grid.edit', 'ui.grid.rowEdit']);
 
-app.controller('MainCtrl', ['$scope', '$http', '$route', '$resource', 'Record', 'uiGridConstants', function($scope, $http, $route, $resource, Record, uiGridConstants) {
+  
+app.controller('loginCtrl', [ '$scope', 'Auth', function ($scope, Auth) {
+  //submit
+  $scope.login = function () {
+    //      // Ask to the server, do your job and THEN set the user
+    var user = {username: username.value, password: password.value};
+    Auth.setUser(user); //Update the state of the user in the app
+  };
+}]);
+
+app.controller('MainCtrl', ['$scope', 'Auth', '$http', '$route', '$resource', 'Record', 'uiGridConstants', function($scope, Auth, $http, $route, $resource, Record, uiGridConstants) {
   var paginationOptions = {
     pageNumber: 1,
     pageSize: 25,
     sort: null
   };
 
+  $scope.$watch(Auth.isLoggedIn, function (value, oldValue) {
+    if(!value && oldValue) {
+      console.log("Disconnect");
+      $location.path('../login');
+    }
+    if(value) {
+            console.log("Connect");
+      //    
+    }
+  }, true);
 
   $scope.gridOptions = {
     //totalItems: 100,

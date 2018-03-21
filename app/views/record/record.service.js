@@ -3,10 +3,39 @@ app.config(function ($routeProvider, $locationProvider) {
     .when('/', {
       controller: 'MainCtrl',
       templateUrl: '../views/record/index.html'
-    });
+    })
+  ;
   $locationProvider.html5Mode(true);
 });
 
+app.run(['$rootScope', '$location', 'Auth', function ($rootScope, $location, Auth) {
+  $rootScope.$on('$routeChangeStart', function (event) {
+
+    if (!Auth.isLoggedIn()) {
+      console.log('DENY');
+      event.preventDefault();
+      if ( $location.path() === "/login"  ) return;
+      $location.path('../login');
+    }
+    else {
+      console.log('ALLOW');
+      //event.preventDefault();
+      //if ( $location.path() === "/"  ) return;
+    }
+  });
+}]);
+
+app.factory('Auth', function(){
+  var user;
+  return{
+    setUser : function(aUser){
+      user = aUser;
+    },
+    isLoggedIn : function(){
+      return(user)? user : true;
+    }
+  }
+})
 
 app.factory("Record", function($resource) {
   var resource = $resource("../api/records/:record_id", {record_id: '@record_id'}, {

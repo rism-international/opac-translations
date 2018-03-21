@@ -79,10 +79,15 @@ router.get('/records', function(req, res) {
   res.sendFile(__base + 'views/record/record.html');
 });
 
+
 //router.get('/records/:item', function(req, res) {
 //  console.log(__base);
 //  res.sendFile(__base + 'views/record/show.html');
 //});
+router.get('/login', function(req, res) {
+  res.sendFile(__base + 'views/login.html');
+});
+
 
 router.get('/about', function(req, res) {
   res.sendFile(__base + 'views/about.html');
