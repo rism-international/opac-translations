@@ -43,6 +43,7 @@ app.controller('MainCtrl', ['$scope', 'Auth', '$http', '$route', '$resource', 'R
       { field: 'german', enableCellEdit: true},
       { field: 'french', enableCellEdit: true},
       { field: 'italian', enableCellEdit: true},
+      { field: 'spanish', enableCellEdit: true},
       { field: 'updated_at', type: 'date', width: '10%' },
       //{  name: 'Insert', cellTemplate: '<button class="btn btn-success btn-sm" ng-click="grid.appScope.addNewItem()" ng-show="grid.appScope.isLast(row)">Add row</button>', width: '5%'  },
       //{name:' ',cellTemplate:'<div><button ng-click="deleteRecord()">Delete</button></div>'}

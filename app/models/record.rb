@@ -34,7 +34,7 @@ Mongoid.load!("./config/mongoid.yml", :development)
     #Export the set into the output folder
     def self.export
       require 'java-properties'
-      langs = {"de": :german, "en": :english, "it": :italian, "fr": :french}
+      langs = {"de": :german, "en": :english, "it": :italian, "fr": :french, "es": :spanish}
       langs.each do |k, lang|
         res = {}
         ofile = File.open("../output/application_#{k}.properties", "w")

@@ -4,6 +4,10 @@ app.config(function ($routeProvider, $locationProvider) {
       controller: 'MainCtrl',
       templateUrl: '../views/record/index.html'
     })
+   .when('/login', {
+      controller: 'loginCtrl',
+      templateUrl: '../views/login.html'
+    })
   ;
   $locationProvider.html5Mode(true);
 });
@@ -15,7 +19,7 @@ app.run(['$rootScope', '$location', 'Auth', function ($rootScope, $location, Aut
       console.log('DENY');
       event.preventDefault();
       if ( $location.path() === "/login"  ) return;
-      $location.path('../login');
+      $location.path('/login');
     }
     else {
       console.log('ALLOW');

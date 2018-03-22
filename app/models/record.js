@@ -6,6 +6,7 @@ var RecordSchema = new Schema({
   german :String,
   french :String,
   italian :String,
+  spanish :String,
   record_id :Number,
   updated_at :Date
 });

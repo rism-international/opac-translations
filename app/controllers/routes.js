@@ -48,6 +48,7 @@ router.route('/api/records/:record_id')
       record.french = req.body.french;
       record.german = req.body.german;
       record.italian = req.body.italian;
+      record.spanish = req.body.spanish;
       record.updated_at = new Date().toISOString();
       record.save(function(err) {
         if (err)
