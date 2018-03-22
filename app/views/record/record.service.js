@@ -21,22 +21,40 @@ app.run(['$rootScope', '$location', 'Auth', function ($rootScope, $location, Aut
       console.log('ALLOW');
       //event.preventDefault();
       //if ( $location.path() === "/"  ) return;
+      //$location.path('../login');
     }
   });
 }]);
 
+app.factory('Auth', function() {
+  var admin = 'admin';
+  var pass = 'pass';
+  var isLoggedIn = true;
+  return {
+    setUser : function(aUser) {
+      isLoggedIn = aUser.username === admin && aUser.password === pass;
+      return true;
+    },
+    isLoggedIn : function() {
+      return true;
+    }
+  };
+});
+/*
 app.factory('Auth', function(){
   var user;
   return{
     setUser : function(aUser){
-      user = aUser;
+      if (aUser.username === 'aaa'){
+        user = aUser;
+      }
     },
     isLoggedIn : function(){
       return(user)? user : true;
     }
   }
 })
-
+*/
 app.factory("Record", function($resource) {
   var resource = $resource("../api/records/:record_id", {record_id: '@record_id'}, {
           query: {method: 'GET', isArray: true, params: {limit: 40} }
