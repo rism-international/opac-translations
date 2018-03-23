@@ -40,7 +40,7 @@ Mongoid.load!("./config/mongoid.yml", :development)
         ofile = File.open("../output/application_#{k}.properties", "w")
         rx = Record.all.order_by(record_id: :asc)
         rx.each do |r|
-          if r[lang]
+          if r[lang] && !(r[lang]).to_s.strip.empty?
             res[r.code] = r[lang]
           end
         end
