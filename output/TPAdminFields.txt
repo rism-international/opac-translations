@@ -1,0 +1,259 @@
+6015  - RISM: Incipit_Transp_VK
+en: Music incipit via on-screen keyboard (with transposition)
+de: Notenanfang per Klaviatur (mit Transposition)
+fr: 
+it: 
+es: 
+---------------------------------------
+6024  - Rism: Sammlungen-Navigat
+en: Series
+de: Serien
+fr: 
+it: 
+es: 
+---------------------------------------
+6001 - RISM: Besetzung_navigato
+en: Scoring
+de: Besetzung
+fr: 
+it: 
+es: 
+---------------------------------------
+6020 - RISM: Publisher_Navigato
+en: Publisher
+de: Verlag
+fr: 
+it: 
+es: 
+---------------------------------------
+6014 - RISM: Incipit_VK
+en: Music incipit via on-screen keyboard
+de: Notenanfang per Klaviatur
+fr: 
+it: 
+es: 
+---------------------------------------
+6016 - RISM:  Bibliothekssigel_n
+en: Library siglum
+de: Bibliothekssigel
+fr: 
+it: 
+es: 
+---------------------------------------
+6002 - RISM: Incipit
+en: Music incipit
+de: Notenanfang
+fr: 
+it: 
+es: 
+---------------------------------------
+6003 - RISM: Incipit_Transp
+en: Music incipit (with transposition)
+de: Notenanfang (mit Transposition)
+fr: 
+it: 
+es: 
+---------------------------------------
+6004 - RISM: Weitere Personen
+en: Other names
+de: Weitere Personen
+fr: 
+it: 
+es: 
+---------------------------------------
+6005 - RISM: Werkverzeichnisnum
+en: Catalog of works number
+de: Werkverzeichnis-Nr.
+fr: 
+it: 
+es: 
+---------------------------------------
+6006 - RISM: Tonart
+en: Key
+de: Tonart
+fr: 
+it: 
+es: 
+---------------------------------------
+6007 - RISM: Provenienz
+en: Provenance
+de: Provenienz
+fr: 
+it: 
+es: 
+---------------------------------------
+6008 - RISM:  Materialtyp
+en: Source type
+de: Materialtyp
+fr: 
+it: 
+es: 
+---------------------------------------
+6009 - RISM: Wasserzeichen
+en: Watermarks
+de: Wasserzeichen
+fr: 
+it: 
+es: 
+---------------------------------------
+6010 - RISM: Liturgische Feste
+en: Liturgical festival
+de: Liturgische Feste
+fr: 
+it: 
+es: 
+---------------------------------------
+6011 - RISM: Besetzung
+en: Scoring
+de: Besetzung
+fr: 
+it: 
+es: 
+---------------------------------------
+6000 - RISM: RISM ID no.
+en: RISM ID no.
+de: RISM ID no.
+fr: 
+it: 
+es: 
+---------------------------------------
+6021 - RISM: Publisher
+en: Publisher
+de: Verlagsname
+fr: 
+it: 
+es: 
+---------------------------------------
+6023 - RISM: Series A&B number
+en: A/1 or B/1 number
+de: Serien A & B Nummer
+fr: 
+it: 
+es: 
+---------------------------------------
+6022 - RISM:
+en: Plate number
+de: Plattennummer
+fr: 
+it: 
+es: 
+---------------------------------------
+200209 - RISM: Angaben Unvollst
+en: Plate number
+de: Angaben über Unvollständigkeiten
+fr: 
+it: 
+es: 
+---------------------------------------
+200210 - RISM:  Sigel Bemerkungen
+en: Notes
+de: Bemerkungen
+fr: 
+it: 
+es: 
+---------------------------------------
+200211 - RISM: Sigel URL
+en: URL and Image URL
+de: URL und Image URL
+fr: 
+it: 
+es: 
+---------------------------------------
+200212 - RISM:  AI Nummer
+en: RISM A/I
+de: RISM A/I
+fr: 
+it: 
+es: 
+---------------------------------------
+200213 - RISM: BI Nummer
+en: RISM B/I
+de: RISM B/I
+fr: 
+it: 
+es: 
+---------------------------------------
+200214 - RISM: Erstdruck
+en: Initial entry
+de: Ersteintrag
+fr: 
+it: 
+es: 
+---------------------------------------
+200215 - RISM: Folgedruck
+en: Following  entries
+de: Folgeeinträge
+fr: 
+it: 
+es: 
+---------------------------------------
+200216 - RISM: Plattennummer
+en: Plate number
+de: Plattennummer
+fr: 
+it: 
+es: 
+---------------------------------------
+200217 - RISM: Impressum
+en: Imprint
+de: Impressum
+fr: 
+it: 
+es: 
+---------------------------------------
+200219 - RISM: Bestand
+en: Collection
+de: Bestand
+fr: 
+it: 
+es: 
+---------------------------------------
+200220 - RISM: Inventarnummer
+en: 
+de: Inventar- bzw. Zugangsnummer
+fr: 
+it: 
+es: 
+---------------------------------------
+200221 - RISM: Einband
+en: 
+de: Einband
+fr: 
+it: 
+es: 
+---------------------------------------
+200113 - RISM: Incipit-Code
+en: Incipit (Plaine&Easy-Code)
+de: Incipit (Plaine&Easy-Code)
+fr: 
+it: 
+es: 
+---------------------------------------
+200222 - RISM:  Signatur
+en: Signature
+de: Signatur
+fr: 
+it: 
+es: 
+---------------------------------------
+200029 - RISM: Koerpersch./Verlag
+en: Plate number
+de: Verlag
+fr: 
+it: 
+es: 
+---------------------------------------
+200224 - RISM: Erscheinungsform
+en: Form
+de: Erscheinungsform
+fr: 
+it: 
+es: 
+---------------------------------------
+200225 - RISM: Publikationsdatum
+en: Date
+de: Publikationsdatum
+fr: 
+it: 
+es: 
+---------------------------------------

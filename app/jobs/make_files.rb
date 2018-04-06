@@ -8,7 +8,8 @@ scheduler = Rufus::Scheduler.new
 
 scheduler.every '12h' do
   Records.export
-  %x( cd ../output; tar -czf properties#{Time.now.strftime("%Y%m%d%H")}.tar.gz *.properties  )
+  Records.export_tpadmin
+  %x( cd ../output; tar -czf properties#{Time.now.strftime("%Y%m%d%H")}.tar.gz *.properties TPAdminFields.txt )
 end
 
 scheduler.join
