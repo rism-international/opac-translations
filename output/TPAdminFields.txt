@@ -209,14 +209,14 @@ it:
 es: 
 ---------------------------------------
 200220 - RISM: Inventarnummer
-en: 
+en: Inventory or accession number
 de: Inventar- bzw. Zugangsnummer
 fr: 
 it: 
 es: 
 ---------------------------------------
 200221 - RISM: Einband
-en: 
+en: Binding
 de: Einband
 fr: 
 it: 
