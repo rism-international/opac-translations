@@ -125,7 +125,7 @@ it:
 es: Editor
 ---------------------------------------
 6023 - RISM: Series A&B number
-en: A/1 or B/1 number
+en: Series A & B number
 de: Serien A & B Nummer
 fr: 
 it: 
@@ -139,7 +139,7 @@ it:
 es: Nº de plancha
 ---------------------------------------
 200209 - RISM: Angaben Unvollst
-en: Plate number
+en: Indication incomplete
 de: Angaben über Unvollständigkeiten
 fr: 
 it: 
@@ -150,14 +150,14 @@ en: Notes
 de: Bemerkungen
 fr: 
 it: 
-es: Notas
+es: Observaciones
 ---------------------------------------
 200211 - RISM: Sigel URL
 en: URL and Image URL
 de: URL und Image URL
 fr: 
 it: 
-es: URL o imagen URL
+es: URL e imagen URL
 ---------------------------------------
 200212 - RISM:  AI Nummer
 en: RISM A/I
