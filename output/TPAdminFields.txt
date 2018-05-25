@@ -204,8 +204,8 @@ es: Música impresa
 200219 - RISM: Bestand
 en: Collection
 de: Bestand
-fr: 
-it: 
+fr: Fonds
+it: Fondo
 es: Colecciones
 ---------------------------------------
 200220 - RISM: Inventarnummer
@@ -225,22 +225,22 @@ es: Encuadernación
 200113 - RISM: Incipit-Code
 en: Incipit (Plaine&Easy-Code)
 de: Incipit (Plaine&Easy-Code)
-fr: 
-it: 
+fr: Incipit (Plaine&Easy-Code)
+it: Incipit (Plaine&Easy-Code)
 es: Íncipit (Plaine&Easy-Code)
 ---------------------------------------
 200222 - RISM:  Signatur
-en: Signature
+en: Shelfmark
 de: Signatur
-fr: 
-it: 
+fr: Cote
+it: Segnatura
 es: Signatura
 ---------------------------------------
 200029 - RISM: Koerpersch./Verlag
-en: Plate number
+en: Publisher
 de: Verlag
-fr: 
-it: 
+fr: Editeur
+it: Casa editrice
 es: Nº de plancha
 ---------------------------------------
 200224 - RISM: Erscheinungsform
@@ -251,9 +251,9 @@ it:
 es: Forma
 ---------------------------------------
 200225 - RISM: Publikationsdatum
-en: Date
+en: Date of publication
 de: Publikationsdatum
-fr: 
+fr: Date de publication
 it: 
 es: Fecha
 ---------------------------------------
