@@ -1,204 +1,204 @@
 6015  - RISM: Incipit_Transp_VK
 en: Music incipit via on-screen keyboard (with transposition)
 de: Notenanfang per Klaviatur (mit Transposition)
-fr: 
-it: 
+fr: Commencement des notes par le clavier (avec transposition)
+it: Incipit musical tramite tastiera su schermo (con trasposizione)
 es: Íncipit musical con teclado-virtual (con transposición)
 ---------------------------------------
 6024  - Rism: Sammlungen-Navigat
 en: Series
 de: Serien
-fr: 
-it: 
+fr: Séries
+it: Serie
 es: Series
 ---------------------------------------
 6001 - RISM: Besetzung_navigato
 en: Scoring
 de: Besetzung
-fr: 
-it: 
+fr: Distribution
+it: Organico
 es: Orquestación
 ---------------------------------------
 6020 - RISM: Publisher_Navigato
 en: Publisher
 de: Verlag
-fr: 
-it: 
+fr: Maison d'édition
+it: Casa editrice
 es: Editor
 ---------------------------------------
 6014 - RISM: Incipit_VK
 en: Music incipit via on-screen keyboard
 de: Notenanfang per Klaviatur
-fr: 
-it: 
+fr: Commencement des notes par le clavier
+it: Incipit musical tramite tastiera su schermo
 es: Íncipit musical con teclado-virtual (con transposición)
 ---------------------------------------
 6016 - RISM:  Bibliothekssigel_n
 en: Library siglum
 de: Bibliothekssigel
-fr: 
-it: 
+fr: Bibliothèque siglum
+it: Siglum della biblioteca
 es: Sigla de la Biblioteca
 ---------------------------------------
 6002 - RISM: Incipit
 en: Music incipit
 de: Notenanfang
-fr: 
-it: 
+fr: Commencement des notes
+it: Incipit musical
 es: Íncipit musical
 ---------------------------------------
 6003 - RISM: Incipit_Transp
 en: Music incipit (with transposition)
 de: Notenanfang (mit Transposition)
-fr: 
-it: 
+fr: Commencement des notes (avec transposition)
+it: Incipit musical (con trasposizione)
 es: Íncipit musical (con transposición)
 ---------------------------------------
 6004 - RISM: Weitere Personen
 en: Other names
 de: Weitere Personen
-fr: 
-it: 
+fr: Autres noms
+it: Altri nomi
 es: Otros nombres
 ---------------------------------------
 6005 - RISM: Werkverzeichnisnum
 en: Catalog of works number
 de: Werkverzeichnis-Nr.
-fr: 
-it: 
+fr: No. de catalogue des œuvres
+it: No. di catalogo delle opere
 es: Número de catálogo temático
 ---------------------------------------
 6006 - RISM: Tonart
 en: Key
 de: Tonart
-fr: 
-it: 
+fr: Clé
+it: Tonalità
 es: Tono
 ---------------------------------------
 6007 - RISM: Provenienz
 en: Provenance
 de: Provenienz
-fr: 
-it: 
+fr: Provenanz
+it: Provenanz
 es: Procedencia
 ---------------------------------------
 6008 - RISM:  Materialtyp
 en: Source type
 de: Materialtyp
-fr: 
-it: 
+fr: Type de source
+it: Tipo di fonte
 es: Tipo de fuente
 ---------------------------------------
 6009 - RISM: Wasserzeichen
 en: Watermarks
 de: Wasserzeichen
-fr: 
-it: 
+fr: Filigrane
+it: Filigrana
 es: Marcas de agua
 ---------------------------------------
 6010 - RISM: Liturgische Feste
 en: Liturgical festival
 de: Liturgische Feste
-fr: 
-it: 
+fr: Fête liturgique
+it: Festival liturgici
 es: Festividad Litúrgica
 ---------------------------------------
 6011 - RISM: Besetzung
 en: Scoring
 de: Besetzung
-fr: 
-it: 
+fr: Distribution
+it: Organico
 es: Orquestación
 ---------------------------------------
 6000 - RISM: RISM ID no.
 en: RISM ID no.
 de: RISM ID no.
-fr: 
-it: 
+fr: No. d'identification RISM
+it: No. identificativo RISM
 es: Nº identificador RISM
 ---------------------------------------
 6021 - RISM: Publisher
 en: Publisher
 de: Verlagsname
-fr: 
-it: 
+fr: Maison d'édition
+it: Casa editrice
 es: Editor
 ---------------------------------------
 6023 - RISM: Series A&B number
 en: Series A & B number
 de: Serien A & B Nummer
-fr: 
-it: 
+fr: Numéro de série A et B
+it: Numero di serie A e B.
 es: Serie A/1 o B/1
 ---------------------------------------
 6022 - RISM:
 en: Plate number
 de: Plattennummer
-fr: 
-it: 
+fr: Numéro de la plaque
+it: Numero di targa
 es: Nº de plancha
 ---------------------------------------
 200209 - RISM: Angaben Unvollst
 en: Indication incomplete
 de: Angaben über Unvollständigkeiten
-fr: 
-it: 
-es: Nº de plancha
+fr: Indication incomplète
+it: Indicazione incompleta
+es: Indicación incompleta
 ---------------------------------------
 200210 - RISM:  Sigel Bemerkungen
 en: Notes
 de: Bemerkungen
-fr: 
-it: 
+fr: Notes
+it: Note
 es: Observaciones
 ---------------------------------------
 200211 - RISM: Sigel URL
 en: URL and Image URL
 de: URL und Image URL
-fr: 
-it: 
+fr: URL et URL de l'image
+it: URL e URL dell'immagine
 es: URL e imagen URL
 ---------------------------------------
 200212 - RISM:  AI Nummer
 en: RISM A/I
 de: RISM A/I
-fr: 
-it: 
+fr: RISM A/I
+it: RISM A/I
 es: RISM A/1
 ---------------------------------------
 200213 - RISM: BI Nummer
 en: RISM B/I
 de: RISM B/I
-fr: 
-it: 
+fr: RISM B/I
+it: RISM B/I
 es: RISM B/1
 ---------------------------------------
 200214 - RISM: Erstdruck
 en: Initial entry
 de: Ersteintrag
-fr: 
-it: 
+fr: Entrée initiale
+it: Record iniziale
 es: Ficha inicial
 ---------------------------------------
 200215 - RISM: Folgedruck
 en: Following  entries
 de: Folgeeinträge
-fr: 
-it: 
+fr: Entrées suivantes
+it: Recordi seguenti
 es: Fichas siguientes
 ---------------------------------------
 200216 - RISM: Plattennummer
 en: Plate number
 de: Plattennummer
-fr: 
-it: 
+fr: Numéro de la plaque
+it: Numeri di targa
 es: Nº de plancha
 ---------------------------------------
 200217 - RISM: Impressum
 en: Imprint
 de: Impressum
-fr: 
-it: 
+fr: Empreintes
+it: Impronta
 es: Música impresa
 ---------------------------------------
 200219 - RISM: Bestand
@@ -211,15 +211,15 @@ es: Colecciones
 200220 - RISM: Inventarnummer
 en: Inventory or accession number
 de: Inventar- bzw. Zugangsnummer
-fr: 
-it: 
+fr: Inventaire ou numéro d'accession
+it: Numero di inventario o di adesione
 es: Inventario o número de acceso
 ---------------------------------------
 200221 - RISM: Einband
 en: Binding
 de: Einband
-fr: 
-it: 
+fr: Couverture
+it: Copertura
 es: Encuadernación
 ---------------------------------------
 200113 - RISM: Incipit-Code
@@ -246,14 +246,14 @@ es: Nº de plancha
 200224 - RISM: Erscheinungsform
 en: Form
 de: Erscheinungsform
-fr: 
-it: 
+fr: Forme d'apparence
+it: Forma di aspetto
 es: Forma
 ---------------------------------------
 200225 - RISM: Publikationsdatum
 en: Date of publication
 de: Publikationsdatum
 fr: Date de publication
-it: 
+it: Data di pubblicazione
 es: Fecha
 ---------------------------------------
