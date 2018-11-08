@@ -11,7 +11,7 @@ Mongoid.load!("./config/mongoid.yml", :development)
     # Seeds the db with external file
     def self.populate
       require 'java-properties'
-      langs = %w( de en fr it )
+      langs = %w( de en fr it es )
       res = {}
       cnt = 1
       langs.each do |lang|
@@ -27,7 +27,7 @@ Mongoid.load!("./config/mongoid.yml", :development)
         end
       end
       res.each do |k,v|
-        Record.create(code: k, record_id: v[:record_id], english: v['en'], german: v['de'], french: v['fr'], italian: v['it'], spanish: "" )
+        Record.create(code: k, record_id: v[:record_id], english: v['en'], german: v['de'], french: v['fr'], italian: v['it'], spanish: v['es'] )
       end
     end
 
@@ -52,7 +52,7 @@ Mongoid.load!("./config/mongoid.yml", :development)
     def self.insert_tpadmin
       array = []
       cnt = 3501
-      input_string = File.open("../TPAdminFields.txt").readlines
+      input_string = File.open("../input/TPAdminFields.txt").readlines
       obj = {}
       input_string.each do |line|
         if line[0] =~ /[0-9]/
@@ -68,8 +68,7 @@ Mongoid.load!("./config/mongoid.yml", :development)
         end
       end
       array.each do |e|
-        Record.create(code: e[:code], record_id: e[:record_id], english: e['en'], german: e['de'], french: e['fr'], italian: e['it'] )
-        binding.pry
+        Record.create(code: e[:code], record_id: e[:record_id], english: e['en'], german: e['de'], french: e['fr'], italian: e['it'], spanish: e['es'] )
       end
     end
 

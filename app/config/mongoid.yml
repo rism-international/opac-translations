@@ -3,7 +3,7 @@ development:
     default:
       database: backend
       hosts:
-        - db:27018
+        - localhost:27017
       options:
         user: 'user'
         password: 'start123'
